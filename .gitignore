@@ -2,3 +2,6 @@ env
 .vscode
 *.exe
 telegram-session.*
+*.spec
+build
+__pycache__
