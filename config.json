@@ -1,0 +1,53 @@
+{
+    "api_id": 0,
+    "api_hash": "",
+    "root_user": -2,
+    "header_message": "**My Scavenger Hunt**\n\n📶 __Leaderboards__:\n\n",
+    "debug": false,
+    "random": false,
+    "hints": [{
+        "points": 5,
+        "text": "This is the message that will be sent to a contestant when has 5 points (or more) and entered in an even position in the Scavenger (it was the second person to be added to the scavenger, for example)",
+        "group_message": null,
+        "even_contestant": true,
+        "even_position": null
+    },
+    {
+        "points": 5,
+        "text": "This is the message that will be sent to a contestant when has 5 points (or more) and entered in an odd position in the Scavenger (it was the first person to be added to the scavenger, for example)",
+        "group_message": null,
+        "even_contestant": false,
+        "even_position": null
+    },
+    {
+        "points": 5,
+        "text": "This is the message that will be sent to a contestant when has 5 points (or more) and entered in an odd position in the Scavenger (it was the first person to be added to the scavenger, for example)",
+        "group_message": null,
+        "even_contestant": false,
+        "even_position": null
+    },
+    {
+        "points": 5,
+        "text": "This is the message that will be sent to a contestant when has 5 points (or more), no matter the join order",
+        "group_message": null,
+        "even_contestant": null,
+        "even_position": null
+    },
+    {
+        "points": 5,
+        "text": "This is the message that will be sent to a contestant when has 5 points (or more), and it's position at the time of issuing the points is even",
+        "group_message": null,
+        "even_contestant": null,
+        "even_position": true
+    },
+    {
+        "points": 10,
+        "text": "This is the message that will be sent to a contestant when has 5 points (or more). A message will be sent as well to the group where the leaderboards are. You can use the '{0}' placeholder for using the alias of the person",
+        "group_message": "**{0}** is getting closer to the end!",
+        "even_contestant": null,
+        "even_position": null
+    }],
+    "point_message": "You were given {0} coins in the last challenge",
+    "position_line": "**{0}º** - **{1}**: {2} coins",
+    "welcome_message": "Information received by the organizer of the Scavenger Hunt. Wait for instructions..."
+}
