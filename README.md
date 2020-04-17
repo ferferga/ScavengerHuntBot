@@ -41,21 +41,21 @@ to accept new contestants.
 
 * Add the user to the Scavenger Hunt:
 
-- FROM YOUR PERSONAL ACCOUNT: Go to your chat with the bot and send ``!add UserID.'Alice & Bob'`` or ``.a UserID.'Alice & Bob'``
-- FROM THE USERBOT ACCOUNT: Go to the chat with the contestant you want to add and send ``!add Alice & Bob`` or ``.a Alice & Bob``
+  - **FROM YOUR PERSONAL ACCOUNT**: Go to your chat with the bot and send ``!add UserID.'Alice & Bob'`` or ``.a UserID.'Alice & Bob'``
+  - **FROM THE USERBOT ACCOUNT**: Go to the chat with the contestant you want to add and send ``!add Alice & Bob`` or ``.a Alice & Bob``
 
 *(You can control the bot using your personal account or the bot itself at any given time. More on that in **Detailed Walkthrough**)*
 
 * (OPTIONAL) Once every contestant is added to the Scavenger Hunt, close the Scavenger, so people who are not participating
 can send you messages without annoyances (otherwise you would receive a lot of ``A new user was recognised`` messages).
 
-- FROM YOUR PERSONAL ACCOUNT: In your chat with the bot: ``!close`` or ``.c``
-- FROM THE USERBOT ACCOUNT: In the chat with your personal account or in *Saved Messages*: ``!close`` or ``.c``.
+  - **FROM YOUR PERSONAL ACCOUNT**: In your chat with the bot: ``!close`` or ``.c``
+  - **FROM THE USERBOT ACCOUNT**: In the chat with your personal account or in *Saved Messages*: ``!close`` or ``.c``.
 
 * Give/Remove points to the contestant:
 
-- FROM YOUR PERSONAL ACCOUNT: In your chat with the bot: ``!prom ContestantID.5`` or ``.p ContestantID.5`` (adds 5 points)
-- FROM THE USERBOT ACCOUNT: In the chat with the contestant: ``!prom -5`` or ``.p -5`` (substracts 5 points. More on that in **Detailed Walkthrough**)
+  - **FROM YOUR PERSONAL ACCOUNT**: In your chat with the bot: ``!prom ContestantID.5`` or ``.p ContestantID.5`` (adds 5 points)
+  - **FROM THE USERBOT ACCOUNT**: In the chat with the contestant: ``!prom -5`` or ``.p -5`` (substracts 5 points. More on that in **Detailed Walkthrough**)
 
 #### Overview of the process using your personal account
 *(Top left: Contestant (Francisco de Goya); Top Right: Personal Account (ferferga); Bottom: Userbot (Diego Velázquez))*
