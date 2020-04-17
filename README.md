@@ -141,7 +141,8 @@ can issue each command
 
 ## Download
 
-I've built binaries for **Windows** and **Linux** for 64 bits, which can be found in the [Releases tab](https://github.com/ferferga/ScavengerHuntBot/releases)
+I've built binaries for **Windows** for 64 bits and **Linux** (**amd64** and **armhf**),
+which can be found in the [Releases tab](https://github.com/ferferga/ScavengerHuntBot/releases)
 
 For other architectures and systems, the general procedure to run this is to download Python > 3.6, clone this repository
 and install the requirements. One-line:
