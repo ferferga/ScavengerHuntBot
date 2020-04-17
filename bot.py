@@ -92,10 +92,10 @@ except:
 try:
     client = TelegramClient('telegram-session', api_id, api_hash)
 except ValueError:
-    print("\nAttempted to connect to Telegram, but the api_id and api_hash keys are invalid. Exiting...")
+    getpass("\nAttempted to connect to Telegram, but the api_id and api_hash keys are invalid. Exiting...")
     exit(1)
 except Exception as e:
-    print("There was an error while initializing the TelegramClient: " + str(e))
+    getpass("There was an error while initializing the TelegramClient: " + str(e))
     exit(1)
 
 ## Functions
